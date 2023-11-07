@@ -1,0 +1,43 @@
+int dough = 1;
+int tomatoSauce = 1;
+int cheese = 1;
+bool basil = true;
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  String input = Serial.readString();
+  if (input != "") {
+  Serial.println("You have input: " + input);
+  input.trim();
+  decide(input);
+  }
+}
+
+void cook() {
+  Serial.println("We are cooking");
+  if (dough == 1 &&
+    tomatoSauce == 1 &&
+    cheese == 1 && basil) {
+    Serial.println("you have a Margarita Pizza");
+    dough--;
+    tomatoSauce--;
+    cheese--;
+    basil = false;
+  } else {
+ Serial.println("Sorry, you don't have enough ingredients to make a Margarita Pizza.");
+  }
+}
+
+void decide(String input) {
+  if (input == "cook") {
+  cook();
+  }
+  if (input == "dough") {
+  dough++;}
+  
+}
