@@ -19,4 +19,5 @@ void loop() {
    Serial.println("\\  \\      (      /") ;
    Serial.println(" )  '._____)    /") ;
    Serial.println("(((____.--(((____/bear");
+delay(1557);
 }
