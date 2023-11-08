@@ -1,13 +1,22 @@
-  (\_/)
- ( o.o )
-()_() 
+void setup() {
+  Serial.begin(9600);  
+}
 
+void loop() {
+  
+  Serial.println("Hello");
+  Serial.println("Here's a cool the drawing");
 
-
-
-( (
-   ) )
-........       
-|      |]
-\      /      
- `----'                  
+  
+   Serial.println(" (()__(()") << ;
+   Serial.println (" /       \\ ") ;
+   Serial.println("( /    \\  \\") ;
+   Serial.println(" \\ o o    /") ;
+   Serial.println("  (_()_)__/ \\") ;
+   Serial.println(" / _,==.____ \\") ;
+   Serial.println("(   |--|      )") ;
+   Serial.println(" /\\_.|__|'-.__/\\_") ;
+   Serial.println("\\  \\      (      /") ;
+   Serial.println(" )  '._____)    /") ;
+   Serial.println("(((____.--(((____/bear");
+}
