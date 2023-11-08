@@ -5,7 +5,7 @@ void setup() {
 void loop() {
   
   Serial.println("Hello");
-  Serial.println("Here's a cool the drawing");
+  Serial.println("Here's a cool  drawing");
 
   
    Serial.println(" (()__(()") << ;
