@@ -1,1 +1,1 @@
-
+int dotDuration = 500;: it's the dotDuration in 500 millisecons, it`s the duration in Morse code.
