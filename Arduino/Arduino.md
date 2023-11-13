@@ -15,6 +15,8 @@ Arduino is an open-source electronics platform that consists of both hardware an
 Initializes the digital pin LED_BUILTIN as an output.
 Turns the LED on (HIGH voltage level) for 2 seconds.
 Turns the LED off (LOW voltage level) for 1 second.
+
+
 **loop() Function**:
 Repeats the following pattern indefinitely in the loop:
 Turns the LED on for 500 milliseconds.
