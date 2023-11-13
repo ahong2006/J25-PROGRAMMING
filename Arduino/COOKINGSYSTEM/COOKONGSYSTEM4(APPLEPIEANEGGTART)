@@ -1,0 +1,61 @@
+Certainly! I've corrected the syntax errors in your code:
+
+```cpp
+int dough = 2;
+int apple = 1;
+int sugar = 2;
+int egg = 2;  // Added a missing semicolon
+bool cinnamon = true;
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  String input = Serial.readString();
+  if (input != "") {
+    Serial.println("You have input: " + input);
+    input.trim();
+    decide(input);
+  }
+}
+
+void cookPizza(String pizzaType) {
+  Serial.println("We are cooking " + pizzaType);
+  if (dough >= 1 && apple >= 1 && sugar >= 1 && cinnamon) {
+    Serial.println("You have a delicious " + pizzaType);
+    dough--;
+    apple--;
+    sugar--;
+    cinnamon = false;
+  } else {
+    Serial.println("Sorry, you don't have enough ingredients to make a " + applepie + ".");
+    makeEggTart();
+  }
+}
+
+void makeEggTart() {
+  Serial.println("Making an Egg Tart!");
+  
+}
+
+void decide(String input) {
+  if (input == "cookApplePie") {
+    cookPizza("Apple Pie");
+  }
+  if (input == "dough") {
+    dough++;
+  }
+  if (input == "apple") {
+    apple++;
+  }
+  if (input == "sugar") {
+    sugar++;
+  }
+  if (input == "cinnamon") {
+    cinnamon = true;
+  }
+  
+}
