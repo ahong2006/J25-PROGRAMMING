@@ -1,1 +1,7 @@
-int dotDuration = 500;: it's the dotDuration in 500 millisecons, it`s the duration in Morse code.
+int dotDuration = 500;: it's the dotDuration in 500 millisecons, which represents the duration of a dot in Morse code.
+int dashDuration = 1500;: dashDuration is in1500 milliseconds, which represents the duration of a line in Morse code.
+void setup() = This function is executed once when the program starts. 
+void morseDot= turns on the LED (HIGH), waits for the duration of one dot, and then turns off the LED (LOW), again waiting for the duration of one dot.
+void morseDash = turns on the LED (HIGH), waits for the duration of one line, and then turns off the LED (LOW), again waiting for the duration of one point.
+void loop =This function is executed repeatedly after the setup() function completes. Define the Morse code sequence to represent the message "ANGEL". 
+The letters are separated by a dotDuration * 2 duration space, and at the end of each letter there is a longer dotDuration * 6 space.
