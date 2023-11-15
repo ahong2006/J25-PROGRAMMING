@@ -205,10 +205,10 @@ void loop() {
   delay(dotDuration*4)
 }
 ```
-IT LOOKS SIMILAR,BUT IT IS MORE SHORT THAN THE 1
 
-I DEFINE EVERY LETTER LIKE A INDIVIDUAL FUNCTION
 
-AND THEN IN THE LOOP I PUT THE LETTER IT'S EQUAL THE FUNCTION THAT I HAVE DEFINED
+I define every letter to a individual function, and then in the loop I put the letter is equal to the function that I have defined
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/FUNCTIONALPROGRAMMING/FUNCTIONALPROGRAMMING2/FUNCTIONALPROGRAMMING2.ino)
 
 
