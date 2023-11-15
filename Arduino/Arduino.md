@@ -435,8 +435,6 @@ The "show" command prints the current quantities of ingredients.
 **Cooking Functions**:
 The makeCake and makeSmoothie functions check whether there are enough ingredients to make a cake or a smoothie, respectively.
 If the conditions are met, the quantities of ingredients are adjusted.
-Serial Communication:
-The code reads serial input and prints messages to the serial monitor to provide feedback on user input and system actions.
 
 [CODE](https://github.com/ahong2006/J25-PROGRAMMING/edit/main/Arduino/COOKINGSYSTEM/COOKONGSYSTEM4)
 
