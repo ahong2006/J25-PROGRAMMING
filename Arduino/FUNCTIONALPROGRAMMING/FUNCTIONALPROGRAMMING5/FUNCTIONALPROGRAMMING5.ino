@@ -1,58 +1,78 @@
-int dotDuration = 100;
-int dashDuration = 3 * dotDuration;
-int waitDuration = 3 * dotDuration;
-
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
+  
+  Serial.begin(9600);
 }
-
 void loop() {
   // A
-  digitalWrite(LED_BUILTIN, HIGH);
-  delay(dotDuration);
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(dotDuration);
-  digitalWrite(LED_BUILTIN, HIGH);
-  delay(dotDuration * 3);
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(waitDuration);  // 
+  morseA(); // A's Morse code
 
+  
+  
   // N
-  digitalWrite(LED_BUILTIN, HIGH);
-  delay(dashDuration);
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(waitDuration);
+  morseN(); // N's Morse code
+
+  
 
   // G
-  digitalWrite(LED_BUILTIN, HIGH);
-  delay(dashDuration);
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(dashDuration);
-  digitalWrite(LED_BUILTIN, HIGH);
-  delay(dashDuration);
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(waitDuration);
+  morseG(); // G's Morse code
 
+  
   // E
-  digitalWrite(LED_BUILTIN, HIGH);
-  delay(dotDuration);
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(waitDuration);
+  morseE(); // E's Morse code
 
+  
   // L
-  digitalWrite(LED_BUILTIN, HIGH);
-  delay(dotDuration);
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(dashDuration);
-  digitalWrite(LED_BUILTIN, HIGH);
-  delay(dotDuration);
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(dotDuration);
-  digitalWrite(LED_BUILTIN, HIGH);
-  delay(dotDuration);
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(waitDuration);  // 
+  morseL(); // L's Morse code
+
+  
+  Serial.println();
+  delay(1000);
+
 }
+
+void morseDot() {
+  Serial.print(".");
+  
+}
+
+void morseDash() {
+  Serial.print("-");
+  
+}
+
+void morseA() {
+  morseDot();
+  morseDash();
+  Serial.print("/");  
+}
+
+void morseN() {
+  morseDash();
+  morseDot();
+  Serial.print("/");
+}
+
+void morseG() {
+  morseDash();
+  morseDash();
+  morseDot();
+  Serial.print("/");
+}
+
+void morseE() {
+  morseDot();
+  Serial.print("/");
+}
+
+void morseL() {
+  morseDot();
+  morseDash();
+  morseDot();
+  morseDot();
+  Serial.print("/");
+}
+
+
 
 
  
