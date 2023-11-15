@@ -39,14 +39,18 @@ The program utilizes a predefined Morse code mapping to translate each letter of
 [CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/MorseCode/MorseName1.0/MorseName1.0.ino)
 
 So, I try to write my name (ANGEL) in morse code. I use the rule of international morse code:
+
 **1-A dash** is equal to three dots.
+
 **2-The space** between parts of the same letter is equal to one dot.
+
 **3-The space** between 2 letters is equal to three dots.
+
 **4-The space** between 2 words is equal to 5 dots.
 
 
-#Functional Programming 1
 
+#Functional Programming 1
 ---
 
 As a difference, we **simplifying** the code, we condensed the repetitive dot and dash sequences by creating separate functions, morseDot and morseDash, which define the behavior of each element. By doing so, the program occupies less space and becomes more readable. This abstraction allows us to use more general terms like morseDot and morseDash whenever we need a dot or dash, streamlining the overall structure and making it easier to manage.
