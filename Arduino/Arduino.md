@@ -107,7 +107,7 @@ void loop() {
   delay(dotDuration * 6);
 }
 
-
+```
 **int dotDuration** = 500;: it's the dotDuration in 500 millisecons, which represents the duration of a dot in Morse code.
 
 **int dashDuration** = 1500;: dashDuration is in 1500 milliseconds, which represents the duration of a line in Morse code.
@@ -124,5 +124,91 @@ The letters are separated by a dotDuration * 2 duration space, and at the end of
 
 [CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/FUNCTIONALPROGRAMMING/FUNCTIONALPROGRAMMING1/FUNCTIONALPROGRAMMING1.ino)
 
+
+#Functional Programming 2
+---
+
+
+In contrast to functional programming 1, this version is further simplified, occupying less space. The significant change involves moving not only the dot and dash specifications but also the entire letters into separate voids outside the loop function. Unlike the previous version where loop contained both the specifications and the letters, now the loop only focuses on the Morse code words. This separation enhances clarity, reduces redundancy, and improves the overall efficiency of the program.
+
+```C++
+int dotDuration = 500;  // 点（dot）的持续时间，单位为毫秒
+int dashDuration = 1500;  // 划线（dash）的持续时间，单位为毫秒
+
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+  // put your setup code here, to run once:
+}
+
+void morseDot() {
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(dotDuration);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(dotDuration);
+}
+
+void morseDash() {
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(dashDuration);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(dotDuration);
+}
+
+void morseA() {
+  morseDot();
+  morseDash();
+  delay(dotDuration*2)
+}
+
+void morseN() {
+  morseDash();
+  morseDot();
+  delay(dotDuration*2)
+}
+
+void morseG() {
+  morseDash();
+  morseDash();
+  morseDot();
+  delay(dotDuration*2)
+}
+
+void morseE() {
+  morseDot();
+  delay(dotDuration*2)
+}
+
+void morseL() {
+  morseDot();
+  morseDash();
+  morseDot();
+  morseDot();
+  delay(dotDuration*2)
+}
+
+void loop() {
+  // A
+  morseA(); // A的摩尔斯电码
+
+
+  // N
+  morseN(); // N的摩尔斯电码
+
+  // G
+  morseG(); // G的摩尔斯电码
+
+  // E
+  morseE(); // E的摩尔斯电码
+
+  // L
+  morseL(); // L的摩尔斯电码
+  delay(dotDuration*4)
+}
+```
+IT LOOKS SIMILAR,BUT IT IS MORE SHORT THAN THE 1
+
+I DEFINE EVERY LETTER LIKE A INDIVIDUAL FUNCTION
+
+AND THEN IN THE LOOP I PUT THE LETTER IT'S EQUAL THE FUNCTION THAT I HAVE DEFINED
 
 
