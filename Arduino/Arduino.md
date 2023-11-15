@@ -341,6 +341,63 @@ void morseL() {
 [CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/FUNCTIONALPROGRAMMING/FUNCTIONALPROGRAMMING5/FUNCTIONALPROGRAMMING5.ino)
 
 
+#ASCII Art
+---
+
+The provided Arduino code uses the Serial Monitor to print out the word "Hello" and an ASCII art representation of a bear. The bear drawing is displayed in a stylized manner using text characters, creating a simple and playful visual output. The delay(1557) function introduces a pause before the loop repeats, controlling the timing of the output. The purpose of this code is primarily to demonstrate the use of the Serial Monitor and to create a fun visual element with the ASCII art. When you upload and run this code on an Arduino board, you can open the Serial Monitor in the Arduino IDE to see the printed output.
+
+
+[A BEAR](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/CHARACTERS/characters)
+
+
+
+#COOKING SYSTEM 1
+---
+
+This Arduino code sets up a basic cooking system that interacts with the Serial Monitor. Within the loop function, Serial.readString() continuously captures input. The decide function assesses the input, and if it matches "cook," it triggers the cook function. Subsequently, the cook function outputs a message, stating, "We are cooking," to the Serial Monitor.
+
+Operation:
+
+Input "cook" via the Serial Monitor.
+The Arduino, upon reading "cook," invokes the decide function.
+The decide function, recognizing the input as "cook," calls the cook function.
+The cook function, in turn, displays "We are cooking" on the Serial Monitor.
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/COOKINGSYSTEM/COOKINGSYSTEM1)
+
+
+#COOKING SYSTEM 2
+---
+
+This Arduino code establishes a cooking system that responds to commands received through the Serial Monitor. The main loop continuously checks for input, and upon receiving a non-empty input, it prints the input and calls the decide function. The decide function, in turn, checks if the input is "cook" or "potato" and performs corresponding actions.And can create a Spanish Omelette if the specified conditions are met. The global variables eggs, potato, oil, and onion represent the quantities of each ingredient. The initial values are set in the code.
+
+In detail:
+
+Send commands via the Serial Monitor.
+Upon receiving input, the Arduino prints the input and processes it through the decide function.
+If the input is "cook," the cook function is invoked, simulating the preparation of a Spanish Omelette by updating ingredient quantities.
+If the input is "potato," the count of potatoes is incremented.
+
+
+[TORTILLA](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/COOKINGSYSTEM/COOKINGSYSTEM2)
+
+
+#COOKING SYSTEM 3
+---
+This Arduino code simulates a cooking system for making Margarita Pizza. The system responds to commands received through the Serial Monitor. The main loop continuously checks for input. Upon receiving non-empty input, it prints the input and processes it through the decide function.
+
+WHAT IS THE PROCESS?
+
+Send commands via the Serial Monitor.
+Upon receiving input, the Arduino prints the input and processes it through the decide function.
+If the input is "cook," the cook function is invoked, simulating the preparation of a Margarita Pizza by updating ingredient quantities (dough, tomato sauce, cheese, and basil).
+If the input is "dough," the count of dough is incremented.
+The system checks if there are enough ingredients to make a Margarita Pizza and updates the quantities accordingly. If there are not enough ingredients, a corresponding message is printed.
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/COOKINGSYSTEM/COOKINGSYSTEM3(Pizza))
+
+
+
 
 
 
