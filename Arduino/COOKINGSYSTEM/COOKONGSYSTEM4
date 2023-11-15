@@ -1,0 +1,94 @@
+// Cooking system for cake and smoothie
+// Cake recipe: 2 flour, 1 sugar, 1 egg, 1 butter
+// Smoothie recipe: 2 bananas, 1 cup milk, 1 cup berries, sugar optional
+
+int flour = 0;
+int sugar = 0;
+int egg = 0;
+int butter = 0;
+
+int bananas = 0;
+int milk = 0;
+int berries = 0;
+bool sugarOptional = false;
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  String input = Serial.readString();
+  if (input != "") {
+    Serial.println();
+    Serial.print("You wrote: ");
+    Serial.println(input);
+    input.trim();
+    decide(input);
+  }
+}
+
+void decide(String input) {
+  Serial.println("We are deciding");
+  if (input == "cook") {
+    cook();
+  } else if (input == "cake") {
+    makeCake();
+  } else if (input == "flour") {
+    flour++;
+  } else if (input == "sugar") {
+    sugar++;
+  } else if (input == "egg") {
+    egg++;
+  } else if (input == "butter") {
+    butter++;
+  } else if (input == "smoothie") {
+    makeSmoothie();
+  } else if (input == "bananas") {
+    bananas++;
+  } else if (input == "milk") {
+    milk++;
+  } else if (input == "berries") {
+    berries++;
+  } else if (input == "sugarOptional") {
+    sugarOptional = true;
+  }
+  // Add more conditions for other ingredients or recipes if needed.
+
+  if (input == "show") {
+    Serial.println("These are the ingredients that we have");
+    // Display the ingredients for both cake and smoothie.
+    // ...
+  }
+}
+
+void cook() {
+  Serial.println("We are cooking!");
+  // Implement the cooking logic for multiple recipes if needed.
+}
+
+void makeCake() {
+  Serial.println("We are making a cake!");
+  if (flour >= 2 && sugar >= 1 && egg >= 1 && butter >= 1) {
+    Serial.println("You have a cake!");
+    flour = flour - 2;
+    sugar--;
+    egg--;
+    butter--;
+  }
+}
+
+void makeSmoothie() {
+  Serial.println("We are making a smoothie!");
+  if (bananas >= 2 && milk >= 1 && berries >= 1) {
+    if (sugarOptional) {
+      Serial.println("You have a sweetened smoothie!");
+      sugarOptional = false;
+    } else {
+      Serial.println("You have a smoothie!");
+    }
+    bananas = bananas - 2;
+    milk--;
+    berries--;
+  }
+}
+
