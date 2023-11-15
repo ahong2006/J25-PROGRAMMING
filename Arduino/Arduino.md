@@ -249,4 +249,98 @@ void morseA() {
 #Functional Programming 4
 ---
 
+The 4 is based on the 2, so they are quite similar.The provided code represents a simplified version of the Morse code using the built-in LED. In this version, the morseBlink function handles both dots and dashes by adjusting the number of dots. Each letter (A, N, G, E, L) is defined concisely in the loop, making the code more readable.
+
+In comparison with the previous blink program, this version condenses the Morse code representation, reducing redundancy and improving clarity. The morseBlink function enhances modularity by serving as a common unit for both dots and dashes, contributing to a more efficient and manageable code structure.
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/FUNCTIONALPROGRAMMING/FUNCTIONALPROGRAMMING4/FUNCTIONALPROGRAMMING4.ino)
+
+
+#Functional Programming 5
+---
+
+This Arduino sketch displays the Morse code for the word "ANGEL" on the Serial Monitor. Each letter is encapsulated in its own function (morseG, morseN, etc.), utilizing the Serial.print function to output Morse code for dots and dashes.
+
+To distinguish between letters, a forward slash ("/") is appended at the end of each letter. The morseDot function generates a dot (.), while the morseDash function generates a dash (-). This structured approach enhances readability and facilitates the understanding of Morse code representation.
+
+```C++
+void setup() {
+  
+  Serial.begin(9600);
+}
+void loop() {
+  // A
+  morseA(); // A's Morse code
+
+  
+  
+  // N
+  morseN(); // N's Morse code
+
+  
+
+  // G
+  morseG(); // G's Morse code
+
+  
+  // E
+  morseE(); // E's Morse code
+
+  
+  // L
+  morseL(); // L's Morse code
+
+  
+  Serial.println();
+  delay(1000);
+
+}
+
+void morseDot() {
+  Serial.print(".");
+  
+}
+
+void morseDash() {
+  Serial.print("-");
+  
+}
+
+void morseA() {
+  morseDot();
+  morseDash();
+  Serial.print("/");  
+}
+
+void morseN() {
+  morseDash();
+  morseDot();
+  Serial.print("/");
+}
+
+void morseG() {
+  morseDash();
+  morseDash();
+  morseDot();
+  Serial.print("/");
+}
+
+void morseE() {
+  morseDot();
+  Serial.print("/");
+}
+
+void morseL() {
+  morseDot();
+  morseDash();
+  morseDot();
+  morseDot();
+  Serial.print("/");
+}
+```
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/FUNCTIONALPROGRAMMING/FUNCTIONALPROGRAMMING5/FUNCTIONALPROGRAMMING5.ino)
+
+
+
+
 
