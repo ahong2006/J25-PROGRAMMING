@@ -7,7 +7,9 @@ Arduino is an open-source electronics platform that consists of both hardware an
 
 [Download arduino IDE](https://www.arduino.cc/en/software)
 
-![71z22cRPeeL _AC_UF894,1000_QL80_](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/405f8738-a67b-4c49-b2c9-333eeb4e62df)
+
+[ooo_](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/edbff1e5-e5b9-41aa-9a83-c4419445962d)
+
 
 
 
