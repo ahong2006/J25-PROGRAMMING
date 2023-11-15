@@ -212,3 +212,41 @@ I define every letter to a individual function, and then in the loop I put the l
 [CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/FUNCTIONALPROGRAMMING/FUNCTIONALPROGRAMMING2/FUNCTIONALPROGRAMMING2.ino)
 
 
+#Functional Programming 3
+---
+
+
+This Arduino sketch follows the pattern of showcasing Morse code through the built-in LED. Notably, the code has been refined by introducing a function named morseBlink, which serves for both dots and dashes. Each letter is symbolized by a series of dots and dashes, with suitable pauses differentiating them.
+
+
+```c++
+int dotDuration = 500;  
+int dashDuration = 1500;  
+
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+  
+}
+
+void morseBlink(int numberOfDots) {
+  
+    digitalWrite(LED_BUILTIN, HIGH);
+    delay(dotDuration*3);
+    digitalWrite(LED_BUILTIN, LOW);
+    delay(dotDuration);
+  
+}
+
+void morseA() {
+  morseBlink(1);
+  morseBlink(3);
+  delay(dotDuration * 2);
+}
+```
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/FUNCTIONALPROGRAMMING/FUNCTIONALPROGRAMMING3/FUNCTIONALPROGRAMMING3.ino)
+
+
+#Functional Programming 4
+---
+
+
