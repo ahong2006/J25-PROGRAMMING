@@ -3,21 +3,20 @@ void setup() {
 }
 
 void loop() {
-  
   Serial.println("Hello");
-  Serial.println("Here's a cool  drawing");
+  Serial.println("Here's a cool drawing");
 
+  Serial.println(" (()__(()");
+  Serial.println(" /       \\ ");
+  Serial.println("( /    \\  \\");
+  Serial.println(" \\ o o    /");
+  Serial.println("  (_()_)__/ \\");
+  Serial.println(" / _,==.____ \\");
+  Serial.println("(   |--|      )");
+  Serial.println(" /\\_.|__|'-.__/\\_");
+  Serial.println("\\  \\      (      /");
+  Serial.println(" )  '._____)    /");
+  Serial.println("(((____.--(((____/bear");
   
-   Serial.println(" (()__(()") << ;
-   Serial.println (" /       \\ ") ;
-   Serial.println("( /    \\  \\") ;
-   Serial.println(" \\ o o    /") ;
-   Serial.println("  (_()_)__/ \\") ;
-   Serial.println(" / _,==.____ \\") ;
-   Serial.println("(   |--|      )") ;
-   Serial.println(" /\\_.|__|'-.__/\\_") ;
-   Serial.println("\\  \\      (      /") ;
-   Serial.println(" )  '._____)    /") ;
-   Serial.println("(((____.--(((____/bear");
-delay(1557);
+  delay(1557);
 }
