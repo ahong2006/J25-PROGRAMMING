@@ -25,7 +25,25 @@ Turns the LED off for 500 milliseconds.
 In summary, the code initializes the LED, turns it on and off in a loop, creating a basic blinking pattern. The delays control the duration of LED on and off states.
 
 [CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/BLINK/BLINKVARIATION/BlinkVariation1.ino)
+```C++
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+    digitalWrite(13, 1);  // turn the LED on (HIGH is the voltage level)
+  delay(2000);                      // wait for a second
+  digitalWrite(13, 0);   // turn the LED off by making the voltage LOW
+  delay(1000);     
+}
 
+// the loop function runs over and over again forever
+void loop() {
+ 
+  digitalWrite(13, 1);  // turn the LED on (HIGH is the voltage level)
+  delay(500);    
+    digitalWrite(13, 0);   // turn the LED off by making the voltage LOW
+  delay(500);                // wait for a second
+}
+```
 
 #Morse Code
 ---
@@ -371,7 +389,7 @@ The cook function, in turn, displays "We are cooking" on the Serial Monitor.
 
 This Arduino code establishes a cooking system that responds to commands received through the Serial Monitor. The main loop continuously checks for input, and upon receiving a non-empty input, it prints the input and calls the decide function. The decide function, in turn, checks if the input is "cook" or "potato" and performs corresponding actions.And can create a Spanish Omelette if the specified conditions are met. The global variables eggs, potato, oil, and onion represent the quantities of each ingredient. The initial values are set in the code.
 
-In detail:
+**PROCESS**
 
 Send commands via the Serial Monitor.
 Upon receiving input, the Arduino prints the input and processes it through the decide function.
@@ -386,7 +404,7 @@ If the input is "potato," the count of potatoes is incremented.
 ---
 This Arduino code simulates a cooking system for making Margarita Pizza. The system responds to commands received through the Serial Monitor. The main loop continuously checks for input. Upon receiving non-empty input, it prints the input and processes it through the decide function.
 
-WHAT IS THE PROCESS?
+**WHAT IS THE PROCESS?**
 
 Send commands via the Serial Monitor.
 Upon receiving input, the Arduino prints the input and processes it through the decide function.
@@ -395,6 +413,31 @@ If the input is "dough," the count of dough is incremented.
 The system checks if there are enough ingredients to make a Margarita Pizza and updates the quantities accordingly. If there are not enough ingredients, a corresponding message is printed.
 
 [CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/COOKINGSYSTEM/COOKINGSYSTEM3(Pizza))
+
+
+#COOKING SYSTEM 4
+---
+The provided code is a basic implementation of a cooking system using Arduino. It simulates the process of receiving commands through a serial interface and responding accordingly.
+
+**Ingredient Variables**:
+The code defines variables for different ingredients such as flour, sugar, egg, butter for the cake, and bananas, milk, berries, sugarOptional for the smoothie.
+**Setup and Loop**:
+The setup function initializes the serial communication.
+The loop function continuously reads serial input and calls the decide function.
+**Decide Function**:
+The decide function interprets the input commands and performs actions accordingly.
+Commands like "cake," "flour," "sugar," etc., are used to increment ingredient quantities.
+The "cook" command is a placeholder for a general cooking action (you may customize it for specific recipes).
+The "show" command prints the current quantities of ingredients.
+**Cooking Functions**:
+The makeCake and makeSmoothie functions check whether there are enough ingredients to make a cake or a smoothie, respectively.
+If the conditions are met, the quantities of ingredients are adjusted.
+Serial Communication:
+The code reads serial input and prints messages to the serial monitor to provide feedback on user input and system actions.
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/edit/main/Arduino/COOKINGSYSTEM/COOKONGSYSTEM4)
+
+
 
 
 
