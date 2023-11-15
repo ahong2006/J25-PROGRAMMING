@@ -421,14 +421,17 @@ The provided code is a basic implementation of a cooking system using Arduino. I
 
 **Ingredient Variables**:
 The code defines variables for different ingredients such as flour, sugar, egg, butter for the cake, and bananas, milk, berries, sugarOptional for the smoothie.
+
 **Setup and Loop**:
 The setup function initializes the serial communication.
 The loop function continuously reads serial input and calls the decide function.
+
 **Decide Function**:
 The decide function interprets the input commands and performs actions accordingly.
 Commands like "cake," "flour," "sugar," etc., are used to increment ingredient quantities.
 The "cook" command is a placeholder for a general cooking action (you may customize it for specific recipes).
 The "show" command prints the current quantities of ingredients.
+
 **Cooking Functions**:
 The makeCake and makeSmoothie functions check whether there are enough ingredients to make a cake or a smoothie, respectively.
 If the conditions are met, the quantities of ingredients are adjusted.
