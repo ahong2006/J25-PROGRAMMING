@@ -7,8 +7,8 @@ Arduino is an open-source electronics platform that consists of both hardware an
 
 [Download arduino IDE](https://www.arduino.cc/en/software)
 
+![71z22cRPeeL _AC_UF894,1000_QL80_](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/405f8738-a67b-4c49-b2c9-333eeb4e62df)
 
-![Uploading 71z22cRPeeL._AC_UF894,1000_QL80_.jpg…]()
 
 
 #Blink Variation
