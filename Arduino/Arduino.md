@@ -55,11 +55,67 @@ So, I try to write my name (ANGEL) in morse code. I use the rule of internationa
 
 As a difference, we **simplifying** the code, we condensed the repetitive dot and dash sequences by creating separate functions, morseDot and morseDash, which define the behavior of each element. By doing so, the program occupies less space and becomes more readable. This abstraction allows us to use more general terms like morseDot and morseDash whenever we need a dot or dash, streamlining the overall structure and making it easier to manage.
 
+```c++
+
+int dotDuration = 500;  // 点（dot）的持续时间，单位为毫秒
+int dashDuration = 1500;  // 划线（dash）的持续时间，单位为毫秒
+
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+  // put your setup code here, to run once:
+}
+void morseDot() {
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(dotDuration);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(dotDuration);
+}
+
+void morseDash() {
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(dashDuration);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(dotDuration);
+}
+
+void loop() {
+  // A
+  morseDot(); // 点
+  morseDash(); // 划线
+  delay(dotDuration * 2);  // 
+
+  // N
+  morseDash();
+  morseDot();
+  delay(dotDuration * 2);
+
+  // G
+  morseDash();
+  morseDash();
+  morseDot();
+  delay(dotDuration * 2);
+
+  // E
+  morseDot();
+  delay(dotDuration * 2);
+
+  // L
+  morseDot();
+  morseDash();
+  morseDot();
+  morseDot();
+  delay(dotDuration * 6);
+}
+
 
 **int dotDuration** = 500;: it's the dotDuration in 500 millisecons, which represents the duration of a dot in Morse code.
+
 **int dashDuration** = 1500;: dashDuration is in 1500 milliseconds, which represents the duration of a line in Morse code.
+
 **void morseDot**= turns on the LED (HIGH), waits for the duration of one dot, and then turns off the LED (LOW), again waiting for the duration of one dot.
+
 **void morseDash** = turns on the LED (HIGH), waits for the duration of one line, and then turns off the LED (LOW), again waiting for the duration of one point.
+
 **void loop** =This function is executed repeatedly after the setup() function completes. Define the Morse code sequence to represent the message "ANGEL". 
 The letters are separated by a dotDuration * 2 duration space, and at the end of each letter there is a longer dotDuration * 6 space.
 
