@@ -1,41 +1,42 @@
+String myString = "webiwabo!"; // Moved this line to the global scope
+
 void setup() {
-  
-  Serial.begin(9600);  
+  Serial.begin(9600);
 
-  String webiwabo = "webiwabo"; 
+  String webiwabo = "webiwabo";
 
-  Serial.println(webiwabo); 
-  Serial.println(webiwabo[0]);  
+  Serial.println(webiwabo);
+  Serial.println(webiwabo[0]);
 
-  String juanito = webiwabo[1]; 
+  String juanito = String(webiwabo[1]); // Added String() constructor
   Serial.println(juanito);
 
+  char temp = webiwabo[1];
   webiwabo[1] = webiwabo[0];
-  webiwabo[0] = juanito;
+  webiwabo[0] = temp;
 
-  Serial.println(webiwabo);  
+  Serial.println(webiwabo);
 
   // Swap 'a' and 'i'
-  String anotherwebiwabo = "webiwabo"; 
+  String anotherwebiwabo = "webiwabo";
 
-  Serial.println(anotherwebiwabo); 
-  Serial.println(anotherwebiwabo[4]);  
+  Serial.println(anotherwebiwabo);
+  Serial.println(anotherwebiwabo[3]);
 
-  String pepito = anotherwebiwabo[6]; 
+  String pepito = String(anotherwebiwabo[5]); // Added String() constructor
   Serial.println(pepito);
 
-  anotherwebiwabo[4] = anotherwebiwabo[6];
-  anotherwebiwabo[4] = pepito;
+  char temp2 = anotherwebiwabo[3];
+  anotherwebiwabo[3] = anotherwebiwabo[5];
+  anotherwebiwabo[5] = temp2;
 
-  Serial.println(anotherwebiwabo);  
+  Serial.println(anotherwebiwabo);
 
-}
-String myString = "webiwabo!";
+  // Moved the following lines inside setup
   Serial.println("Original String: " + myString);
 
- 
-  myString.setCharAt(7, 'v');
-  
+  myString.setCharAt(6, 'v');
+
   Serial.println("Modified String: " + myString);
 }
 
