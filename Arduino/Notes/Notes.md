@@ -8,10 +8,10 @@
 
 
 **Programming Languages**: There are numerous programming languages, each with its syntax and rules. Popular languages include Python, Java, C++, JavaScript, and many more. The choice of language often depends on the nature of the task and the preferences of the programmer.
-
-
-##:pencil:What is the CPP/C++ ?
 ___
+
+**:pencil:What is the CPP/C++ ?**
+---
 **C++** is a general-purpose programming language that extends the capabilities of the C language and introduces features of object-oriented programming, and it is a high perfomance programming language.
 
 **Advantages of C++**
@@ -24,8 +24,8 @@ ___
 **Rich Community Support**: C++ has a large and active development community, providing abundant resources, libraries, and tools that developers can benefit from.
 
 **Cross-Platform Capability**: C++ programs can be compiled and run on multiple platforms, providing cross-platform compatibility.
+___
 
 
-
-##Special symbols and operators
+**Special symbols and operators**
 ___
