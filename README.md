@@ -15,6 +15,11 @@
 ---
 [Arduino.md](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/Arduino.md)
 
+
+## CLASS NOTES
+---
+
+
 ## List of Classmates
 
 
