@@ -141,6 +141,7 @@ ___
 
 
 **Variables🛌🏽**
+
 They are used for store and manipulate data.
 ---
 
@@ -173,6 +174,24 @@ Used to represent true or false values.
 ```c++
 bool isPassed = true;
 ```
+___
+
+**Functions🍸**
+---
+
+**Functions🚝** are blocks of code that perform a specific task or set of tasks. They provide a way to modularize code, improve code organization, and enhance reusability. 
+
+-Reusable blocks of code that perform specific tasks.
+
+-Can have parameters and return values.
+
+```c++
+void outputIfNegative (int x) {
+ if (x<0) {
+     Serial.println("The input is a negative number");
+```
+
+
 
 
 
