@@ -29,7 +29,7 @@ ___
 
 **👀Special symbols and operators👀**
 ---
-**Braces {}:**
+**-Braces {}:**
 
 Used to define blocks of code, such as in functions, loops, and conditional statements.
 
@@ -42,7 +42,7 @@ void exampleFunction() {
 }
 ```
 
-**Parentheses ():**
+**-Parentheses ():**
 
 Used in function declarations and calls.
 
@@ -55,7 +55,7 @@ Used in mathematical expressions to specify the order of operations.
 int result = add(3, 4);
 ```
 
-**Square Brackets []:**
+**-Square Brackets []:**
 
 Used for array subscripting and accessing elements.
 
@@ -67,7 +67,7 @@ int numbers[5] = {1, 2, 3, 4, 5};
 int thirdElement = numbers[2];
 ```
 
-**Semicolon ;:**
+**-Semicolon ;:**
 
 Used to terminate statements in C++.
 
@@ -76,7 +76,7 @@ Used to terminate statements in C++.
 printValues(1, 2, 3);
 ```
 
-**Comma ,:**
+**-Comma ,:**
 
 Used to separate items in a list, such as function arguments or variable declarations.
 
@@ -85,7 +85,8 @@ Used to separate items in a list, such as function arguments or variable declara
 printValues(1, 2, 3);
 ```
 
-**Asterisk :**
+**-Asterisk :**
+
 Used for pointer declaration and dereferencing.
 
 ```c++
@@ -95,7 +96,13 @@ int* ptr = nullptr;
 // Example of using an asterisk to dereference a pointer
 int value = *ptr;
 ```
+___
 
+
+**🕶WHAT IS THE SYNTAX?🕶**
+---
+
+**Syntax🤌🏽** in programming sets the rules for combining symbols and keywords correctly. It defines how statements and constructs should be structured, ensuring the proper arrangement of elements for valid code. Simply put, syntax guides the way code is written to be understood and processed correctly by the language's compiler or interpreter.
 
 
 
