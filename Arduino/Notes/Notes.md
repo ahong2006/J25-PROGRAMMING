@@ -100,10 +100,10 @@ ___
 
 
 **🕶WHAT IS THE SYNTAX?🕶**
-___
+---
 
 **Syntax🤌🏽** in programming sets the rules for combining symbols and keywords correctly. It defines how statements and constructs should be structured, ensuring the proper arrangement of elements for valid code. Simply put, syntax guides the way code is written to be understood and processed correctly by the language's compiler or interpreter:
----
+___
 **Correct Structure**: Syntax ensures that the code is written in a way that the compiler or interpreter of the programming language can understand and process.
 
 **Rules and Conventions**: Each programming language has its own syntax rules and conventions that must be followed for the code to be valid. These rules are often defined in the language's documentation.
@@ -135,6 +135,21 @@ void loop() {
     digitalWrite(13, 0);   // turn the LED off by making the voltage LOW
   delay(500);                // wait for a second
 }
+```
+___
+
+
+
+**Fundamental Type🛌🏽s**
+---
+
+**1.Integers (int, short, long, long long)🥢:**
+
+Used to represent whole numbers.
+
+```C++
+int 岁数= 18
+
 ```
 
 
