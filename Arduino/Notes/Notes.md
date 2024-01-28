@@ -100,10 +100,10 @@ ___
 
 
 **🕶WHAT IS THE SYNTAX?🕶**
----
+___
 
 **Syntax🤌🏽** in programming sets the rules for combining symbols and keywords correctly. It defines how statements and constructs should be structured, ensuring the proper arrangement of elements for valid code. Simply put, syntax guides the way code is written to be understood and processed correctly by the language's compiler or interpreter:
-___
+---
 **Correct Structure**: Syntax ensures that the code is written in a way that the compiler or interpreter of the programming language can understand and process.
 
 **Rules and Conventions**: Each programming language has its own syntax rules and conventions that must be followed for the code to be valid. These rules are often defined in the language's documentation.
@@ -115,6 +115,27 @@ ___
 **End-of-Line Markers**: Many programming languages use semicolons ; or other markers to indicate the end of a statement.
 
 **Case Sensitivity**: Some programming languages are case-sensitive, meaning that uppercase and lowercase letters are treated as distinct.
+
+```C++
+//an eample to see the syntax correct
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+    digitalWrite(13, 1);  // turn the LED on (HIGH is the voltage level)
+  delay(2000);                      // wait for a second
+  digitalWrite(13, 0);   // turn the LED off by making the voltage LOW
+  delay(1000);     
+}
+
+// the loop function runs over and over again forever
+void loop() {
+ 
+  digitalWrite(13, 1);  // turn the LED on (HIGH is the voltage level)
+  delay(500);    
+    digitalWrite(13, 0);   // turn the LED off by making the voltage LOW
+  delay(500);                // wait for a second
+}
+```
 
 
 
