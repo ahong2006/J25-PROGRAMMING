@@ -194,7 +194,13 @@ ___
 
 **Control Flow Statements🛫:**
 ---
-Control flow statements in programming are used to manage the flow of execution within a program. They allow you to make decisions, repeat blocks of code, and control the sequence in which statements are executed
+**Control flow** statements in programming are used to manage the flow of execution within a program. They allow you to make decisions, repeat blocks of code, and control the sequence in which statements are executed
+
+**1."if" statement**
+
+·Used for conditional branching.
+
+·Executes a block of code only if a specified condition is true.
 
 
 
