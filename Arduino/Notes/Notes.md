@@ -140,7 +140,7 @@ ___
 
 
 
-**Fundamental Type🛌🏽s**
+**Fundamental Types🛌🏽**
 ---
 
 **1.Integers (int, short, long, long long)🥢:**
@@ -151,6 +151,28 @@ Used to represent whole numbers.
 int 岁数= 18
 
 ```
+
+**2.Floating-Point (float, double, long double):**
+
+Used to represent real numbers (numbers with decimal points).
+
+```C++
+double sum = 0; 
+for(int i = 0; i < 23; i++) 
+{
+    sum = sum + prices[i]; 
+}
+double average = sum / 23;
+Serial.println(min);
+```
+
+**3.Boolean (bool):**
+
+Used to represent true or false values.
+```c++
+bool isPassed = true;
+```
+
 
 
 
