@@ -140,7 +140,8 @@ ___
 
 
 
-**Fundamental Types🛌🏽**
+**Variables🛌🏽**
+They are used for store and manipulate data.
 ---
 
 **1.Integers (int, short, long, long long)🥢:**
