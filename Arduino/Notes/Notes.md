@@ -41,3 +41,61 @@ void exampleFunction() {
 
 }
 ```
+
+**Parentheses ():**
+
+Used in function declarations and calls.
+
+Used in control structures like if statements and loops.
+
+Used in mathematical expressions to specify the order of operations.
+
+```C++
+// Example 
+int result = add(3, 4);
+```
+
+**Square Brackets []:**
+
+Used for array subscripting and accessing elements.
+
+Also used for declaring arrays.
+
+```C++
+// Example 
+int numbers[5] = {1, 2, 3, 4, 5};
+int thirdElement = numbers[2];
+```
+
+**Semicolon ;:**
+
+Used to terminate statements in C++.
+
+```C++
+// Example 
+printValues(1, 2, 3);
+```
+
+**Comma ,:**
+
+Used to separate items in a list, such as function arguments or variable declarations.
+
+```C++
+// Example 
+printValues(1, 2, 3);
+```
+
+**Asterisk :**
+Used for pointer declaration and dereferencing.
+
+```c++
+// Example of using an asterisk to declare a pointer
+int* ptr = nullptr;
+
+// Example of using an asterisk to dereference a pointer
+int value = *ptr;
+```
+
+
+
+
