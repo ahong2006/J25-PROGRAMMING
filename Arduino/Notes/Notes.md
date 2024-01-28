@@ -16,7 +16,11 @@ ___
 
 **Advantages of C++**
 **High Performance**: C++ offers close-to-the-hardware control and high performance, making it suitable for system-level programming and applications with demanding performance requirements.
-Scalability: C++ allows developers to mix object-oriented and procedural programming, enabling the creation of flexible and scalable codebases.
+
+**Scalability**: C++ allows developers to mix object-oriented and procedural programming, enabling the creation of flexible and scalable codebases.
+
 **Low-Level Control**: C++ permits direct control over memory and hardware, allowing developers to optimize code to meet specific requirements.
+
 **Rich Community Support**: C++ has a large and active development community, providing abundant resources, libraries, and tools that developers can benefit from.
+
 **Cross-Platform Capability**: C++ programs can be compiled and run on multiple platforms, providing cross-platform compatibility.
