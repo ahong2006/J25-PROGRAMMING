@@ -197,11 +197,53 @@ ___
 **Control flow** statements in programming are used to manage the flow of execution within a program. They allow you to make decisions, repeat blocks of code, and control the sequence in which statements are executed
 
 **1."if" statement**
+___
+Used for conditional branching.
 
-·Used for conditional branching.
+Executes a block of code only if a specified condition is true.
 
-·Executes a block of code only if a specified condition is true.
+```c++
+if (x[4] < x[1]
 
+```
+**Else**:
+___
+Else is used in conjunction with the if statement to provide an alternative block of code to be executed when the specified condition in the if statement evaluates to false.
+
+```c++
+if (condition) {
+    // code to be executed if the condition is true
+} else {
+    // code to be executed if the condition is false
+}
+```
+
+**2."while"**
+___
+
+Executes a block of code repeatedly as long as a specified condition is true.
+
+```c++
+
+
+int main() {
+    int count = 0;
+
+    while (count < 5) {
+        
+    }
+
+    return 0;
+}
+```
+
+**3."for"**
+___
+Executes a block of code repeatedly, with an explicit initialization, condition, and iteration statement.
+
+```c++
+for(int i = 0; i < 50; i++)
+```
 
 
 
