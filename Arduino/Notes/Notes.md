@@ -29,3 +29,14 @@ ___
 
 **Special symbols and operators**
 ___
+**Braces {}:**
+
+Used to define blocks of code, such as in functions, loops, and conditional statements.
+Also used for initializing arrays and structures.
+
+```C++
+//example
+void exampleFunction() {
+
+}
+```
