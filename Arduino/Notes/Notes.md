@@ -24,3 +24,6 @@ ___
 **Rich Community Support**: C++ has a large and active development community, providing abundant resources, libraries, and tools that developers can benefit from.
 
 **Cross-Platform Capability**: C++ programs can be compiled and run on multiple platforms, providing cross-platform compatibility.
+
+
+**Special symbols and operators**
