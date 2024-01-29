@@ -141,9 +141,9 @@ ___
 
 
 **Variables🛌🏽**
-
-They are used for store and manipulate data.
 ---
+They are used for store and manipulate data.
+___
 
 **1.Integers (int, short, long, long long)🥢:**
 
