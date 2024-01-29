@@ -18,7 +18,7 @@
 
 ## CLASS NOTES
 ---
-
+[Notes]https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/Notes/Notes.md
 
 ## List of Classmates
 
