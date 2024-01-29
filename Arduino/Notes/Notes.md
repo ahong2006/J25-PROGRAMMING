@@ -244,6 +244,28 @@ Executes a block of code repeatedly, with an explicit initialization, condition,
 ```c++
 for(int i = 0; i < 50; i++)
 ```
+___
+
+
+
+**Arrays🧮**
+---
+
+**Array:** is a collection of elements of the same type, stored in contiguous memory locations. Arrays provide a convenient way to organize and access a fixed-size sequence of values.
+___
+
+1-Arrays store a collection of elements of the same type.
+
+2-Pointers store memory addresses.
+
+```c++
+
+int numbers[5] = {1, 2, 3, 4, 5};
+
+```
+
+
+
 
 
 
