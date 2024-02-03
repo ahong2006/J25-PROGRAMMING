@@ -286,7 +286,50 @@ int numbers[5] = {1, 2, 3, 4, 5};
 
 ```
 
+---
 
+**Types of notation🥷**
+---
+
+**1.camelCase:**
+
+Used for naming methods and variables.
+
+The first letter is lowercase, and each subsequent concatenated word starts with an uppercase letter.
+
+Example: myVariable, calculateTotalAmount()
+
+**2.PascalCase:**
+
+Used for naming objects and classes.
+
+Similar to camelCase, but the first letter is also uppercase.
+
+Example: Person, CarModel
+
+**3.kebab-case:**
+
+Used in URLs and sometimes for naming files or directories in web development.
+
+Words are in lowercase, separated by hyphens.
+
+Example: user-profile, page-content
+
+**4.snake_case:**
+
+Words are in lowercase, and spaces are replaced by underscores.
+
+Commonly used in variable and function names in languages that do not allow spaces.
+
+Example: user_age, calculate_total_amount()
+
+**5.SCREAMING_SNAKE_CASE:**
+
+Similar to snake_case but with uppercase letters for all characters.
+
+Often used for constants in some programming languages.
+
+Example: MAX_VALUE, PI_CONSTANT
 
 
 
