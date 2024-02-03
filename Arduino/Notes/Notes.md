@@ -153,8 +153,30 @@ Used to represent whole numbers.
 int 岁数= 18
 
 ```
+**2.Long (Long Integer):**
 
-**2.Floating-Point (float, double, long double):**
+Similar to an integer but can hold larger values.
+
+The size of a long can vary based on the programming language and system architecture.
+
+Often used for representing very large integers.
+
+```c++
+long myLong = 123456789012345;
+
+```
+
+**3.8int (8-bit Integer):**
+
+This seems like a shorthand for an 8-bit integer, representing values from 0 to 255 for an unsigned 8-bit integer.
+
+```c++
+
+int8_t my8Int = 100;
+```
+
+
+**4.Floating-Point (float, double, long double):**
 
 Used to represent real numbers (numbers with decimal points).
 
@@ -168,7 +190,7 @@ double average = sum / 23;
 Serial.println(min);
 ```
 
-**3.Boolean (bool):**
+**5.Boolean (bool):**
 
 Used to represent true or false values.
 ```c++
