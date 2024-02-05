@@ -339,4 +339,43 @@ ___
 
 
 
+**SCOPES👮‍♂️**
+
+---
+
+Refers to the context or range in which a variable or identifier can be accessed or modified
+___
+
+**Global Scope (Ámbito Global):**
+
+Variables declared in the global scope are accessible from anywhere in the program.
+
+They are defined outside of any function or block of code.
+___
+
+**Local Scope (Ámbito Local):**
+
+Variables declared in a local scope are only accessible within a specific function or block of code where they are defined.
+
+This helps encapsulate variables and avoid unintended interactions with other parts of the program.
+___
+
+
+
+
+**🦈STRINGS🦈**
+---
+
+In programming, a string is a sequence of characters, representing text. It is a fundamental data type widely used for tasks such as input/output, text processing, and data storage.
+
+___
+
+
+
+
+
+
+
+
+
 
