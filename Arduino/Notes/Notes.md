@@ -339,9 +339,10 @@ ___
 
 
 
-**SCOPES👮‍♂️**
 
+**SCOPES👮‍♂️**
 ---
+
 
 Refers to the context or range in which a variable or identifier can be accessed or modified
 ___
