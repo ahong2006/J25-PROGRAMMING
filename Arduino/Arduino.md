@@ -445,6 +445,135 @@ If the conditions are met, the quantities of ingredients are adjusted.
 [CODE](https://github.com/ahong2006/J25-PROGRAMMING/edit/main/Arduino/COOKINGSYSTEM/COOKONGSYSTEM4)
 
 
+**Problem solver 1**
+---
+The code initializes serial communication and a variable for problem numbers. It then iterates through solving drawing problems from 1 to 50 by calling a function that prints a message indicating the problem being solved. The loop increments the problem number. The loop runs once in the setup and doesn't repeat in the loop function.
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/PROBLEMSOLVER/PROBLEMSOLVER1/PROBLEMSOLVER.ino)
+
+
+**Problem solver 2**
+---
+The setup function initializes serial communication and solves drawing problems from 1 to 30, excluding 17, that are odd and divisible by 3. Each problem is printed via resolverProblemaDibujo function.
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/PROBLEMSOLVER/PROBLEMSOLVER2/PROBLEMSOLVER2.ino)
+
+**ANOTHER VARIATION**
+
+The code initializes serial communication and systematically solves drawing problems in various ways. It solves every other problem, solves them in reverse order, excludes problem 17, skips problem 17, skips problems 17 and 23, and solves odd multiples of 3 excluding 17. Each problem's solving is indicated via the resolverProblemaDibujo function. 
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/edit/main/Arduino/PROBLEMSOLVER/PROBLEMSOLVER2/VARIATIONSOF2/VARIATIONOF2.ino)
+
+**Problem solver 3**
+---
+The code in the setup function loops through numbers from 1 to 100. When a number is divisible by 7 , it triggers the resolverProblemaDibujo function to display a message indicating the problem number being solved.
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/PROBLEMSOLVER/PROBLEMSOLVER3/PROBLEMSOLVER3.ino)
+
+**FIRST VARIATION**
+
+This code initializes serial communication and utilizes for loops within the setup function to solve drawing problems for odd numbers ending with 6 or 3 (e.g., 3, 6, 13, 16, etc.).
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/PROBLEMSOLVER/PROBLEMSOLVER3/PROBLEMRESOLVER3.1.ino)
+
+
+**SECOND VARIATION EXTRA POINT**
+
+This code selectively solves numbers based on the criterion that the sum of their digits results in an even number. For instance, it would consider solving 11 because 1 + 1 = 2 (an even sum), but it would skip numbers like 12 or 21 where the sum of the digits is odd.
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/PROBLEMSOLVER/PROBLEMSOLVER3/PROBLEMRESOLVER3.2EXTRA.ino)
+
+
+**Problem solver 4**
+---
+The code systematically detects and prints all numbers ranging from 1 to 100 that include the digit 3 in their digits, such as 3, 13, 23, 30, 31, ..., 39, 43, ..., 93.
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/PROBLEMSOLVER/PROBLEMSOLVER4/PROBLEMSOLVER4.ino)
+
+**Problem solver 5**
+---
+This code iterates through numbers from 1 to 100, selectively identifying and displaying those that are either odd or multiples of 6. 
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/PROBLEMSOLVER/PROBLEMSOLVER5/PROBLEMSOLVER5.ino)
+
+**Problem solver 6**
+---
+This code will tell us all the numbers from 1 to 100 that their digits sums either 10 or 5.
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/PROBLEMSOLVER/PROBLEMSOLVER7/problemsolver7.ino)
+
+
+
+**Arrays 1**
+---
+This code initializes serial communication, manipulates the string "fate" by swapping its first and second letters, and then prints the modified string.
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/ARRAYS/ARRAYS1%20/ARRAYS%201.ino)
+
+
+**Arrays 2**
+---
+This code manipulates the string "webi wabo" by swapping its first two letters, exchanging "i" with "a", and replacing the second occurrence of "b" with "v".
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/ARRAYS/ARRAYS2/ARRAYS%202.ino)
+
+**Arrays 3**
+---
+In this code tells us the lowest marck that we have on the array.
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/ARRAYS/ARRAYS3/ARRAYS3/ARRAYS3.ino)
+
+
+**SONAR 1**
+---
+In this code we find the number of times that the depth has increased.
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/SONAR/SONAR1/SONAR1.ino)
+
+
+**SONAR 2**
+---
+This code analyzes an array of depth values to determine the frequency of increases, decreases, and unchanged values between consecutive elements, then outputs the counts for each category.
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/SONAR/SOANR2/SONAR2.ino)
+
+
+
+**SONAR 3**
+---
+This code analyzes an array of depth values to determine the frequency of increases, decreases, and unchanged values between consecutive elements, then outputs the counts for each category.
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/SONAR/SONAR3/SONAR3.ino)
+
+
+
+**SONAR 4**
+---
+This code analyzes an array of depth values to determine the frequency of increases, decreases, and unchanged values between consecutive elements. It also calculates the changes in vertical speed experienced by the submarine, and reports the maximum and minimum speed values.
+
+[CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/SONAR/SONAR4/SONAR4.ino)
+
+
+**DNI**
+---
+
+The logic behind the DNI (Documento Nacional de Identidad) number and letter varies depending on the country, but there are common principles:
+
+1. Geographic Code: Initial digits often represent the geographic region or province of registration.
+2. Sequential Numbering: Numerical digits are sequentially assigned to identify individuals within a region.
+3. Check Digit or Letter: Calculated using an algorithm applied to preceding digits to detect errors.
+4. Inclusion of Letters: Some DNIs may include letters for added variation.
+5. Format Variations: Different countries may have variations in format.
+   
+**To check the validity of the DNI:**
+
+7. Assign Values: Numerical values are assigned to each digit except the check digit.
+8. Apply Weights: Multiply digits by specific weights, which may vary.
+9. Summation: Sum the results.
+10. Modulo Operation: Perform a modulo operation, often using a specific modulus (e.g., modulo 10).
+11. Calculate Check Digit: Determine the check digit based on the result.
+12. Append Check Digit: Add the calculated check digit to the end of the original DNI.
+
 
 
 
