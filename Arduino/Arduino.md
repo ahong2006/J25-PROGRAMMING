@@ -519,7 +519,7 @@ This code manipulates the string "webi wabo" by swapping its first two letters, 
 
 **Arrays 3**
 ---
-In this code tells us the lowest marck that we have on the array.
+In this code tells us the lowest mark that we have on the array.
 
 [CODE](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/ARRAYS/ARRAYS3/ARRAYS3/ARRAYS3.ino)
 
