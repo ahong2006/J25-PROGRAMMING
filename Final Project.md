@@ -4,6 +4,8 @@
 **Final Project**
 ---
 The goal of this project is to create a code that, when specific commands are sent via serial communication, the Echo system replies with the same commands to ensure proper transmission. Additionally, if the command is "m:" or "morse", the subsequent line will be sent in Morse code. If the command is correct, the system will send a recipe for a selected dish and play (or stop) a song.
+![Tone_Fritzing](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/b504ca98-5f6e-44ec-9045-6fa1ca018aa8)
+
 
 **Principal code**
 ___
