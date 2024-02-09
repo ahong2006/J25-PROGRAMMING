@@ -20,6 +20,12 @@
 ---
 [Notes](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/Notes/Notes.md)
 
+
+## FINAL PROJECT
+---
+[LINK](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Final%20Project.md)
+
+
 ## List of Classmates
 
 
