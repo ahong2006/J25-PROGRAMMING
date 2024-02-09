@@ -371,9 +371,39 @@ In programming, a string is a sequence of characters, representing text. It is a
 
 ___
 
+**Important Constructors**
 
+String(): Constructs an empty string.
 
+String(const char *str): Constructs a string from a null-terminated character array.
 
+String(const string *str): Constructs a string from another string object.
+
+**Essential String Functions**
+
+append(): Appends a portion of a string to another.
+
+assign(): Assigns a segment of a string.
+
+at(): Retrieves the character at a specified position.
+
+begin(): Retrieves a reference to the start of the string.
+
+capacity(): Indicates the total capacity of the string.
+
+compare(): Compares the string with another.
+
+empty(): Checks if the string is empty.
+
+end(): Retrieves a reference to the end of the string.
+
+erase(): Removes characters as per specified criteria.
+
+find(): Searches for the occurrence of a specified substring.
+
+length(): Provides the length of the string.
+
+swap(): Swaps the content of two strings.
 
 
 
