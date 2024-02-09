@@ -3,29 +3,40 @@
 #include "song.h"
 
 void setup() {
-  Serial.begin(9600);
+ 
+Serial.begin(9600);
 }
-
+ 
 void loop() {
-  if (Serial. available() > 0) {
-    String command = Serial.readStringUntil('\n');
-
-    Serial.println("You have written: " + command);
-
-    if (command.startsWith("m: ") || command.startsWith("morse ")) {
-      String message = command.substring(command.indexOf(' ') + 1);
-      translateToMorse(message);
-    }
-
-    if (command.equalsIgnoreCase("recipe")) {
-      cook();
-    }
-
-    if (command.equalsIgnoreCase("play")) {
-      playSong();
-    } 
-    else if (command.equalsIgnoreCase("stop")) {
-      stopSong();
-    }
+  readSerial();
+}
+ 
+ 
+void readSerial() {
+ // Serial.println("Miau");
+  if (Serial.available()>0){
+  String word = Serial.readString();
+  word.trim();
+  Serial.println(word);
+  Serial.println("Longitud del string: ");
+  Serial.println(word.length());
+  decide(word);
   }
 }
+ 
+void decide (String command){
+  Serial.println("hola");
+    if (command.equals("play")) {
+     // playMusic();
+      return;
+    }
+    if (command.equals("stop")){
+      //stopTheMusic = true;
+    }
+    if (command.equals("morse")){
+      outputMorse(command);
+    }
+    if (command.equals("cook")){
+     // decideCooking("in");
+    }
+ }
