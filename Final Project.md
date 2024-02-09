@@ -28,6 +28,7 @@ This is the part that integrates the score as well as the play, if you give it a
 
 ![SI_3DSVC_SuperMarioBros_image1280w](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/6f6c1726-de43-4a44-b383-1a76a542ceb5)
 
+For the score, I chose this epochal Nintendo creation, super mario bros, which not only pushed Nintendo to new heights and created a new type of game, but also made itself an enduring Nintendo classic IP
 
 [Code](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/Proyecto%20Arduino/song.ino)
 
