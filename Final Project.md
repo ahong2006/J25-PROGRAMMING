@@ -8,7 +8,17 @@ The goal of this project is to create a code that, when specific commands are se
 ![Tone_Fritzing](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/b504ca98-5f6e-44ec-9045-6fa1ca018aa8)
 
 Structurally I used one main base file, and three additional files as separate features, but later on I split the cook's file into four, one main file and three dish creation files, somewhat similar to Russian nesting dolls
-![Uploading 截屏2024-02-09 19.35.35.png…]()
+
+<img width="618" alt="截屏2024-02-09 19 35 35" src="https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/17597be2-a1f5-4574-aaaf-0102e1a42ad8">
+
+
+<img width="185" alt="截屏2024-02-09 19 34 56" src="https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/02a0b8ab-6ed2-4f93-90a0-1eb6954e63af">
+
+
+<img width="199" alt="截屏2024-02-09 19 36 09" src="https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/29663af8-37ce-40d5-97b3-4ed6b635f864">
+
+
+
 
 
 
