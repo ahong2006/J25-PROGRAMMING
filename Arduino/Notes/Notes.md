@@ -372,6 +372,7 @@ In programming, a string is a sequence of characters, representing text. It is a
 ___
 
 **Important Constructors**
+___
 
 String(): Constructs an empty string.
 
@@ -382,6 +383,7 @@ String(const string *str): Constructs a string from another string object.
 
 
 **Essential String Functions**
+___
 
 append(): Appends a portion of a string to another.
 
@@ -409,6 +411,45 @@ swap(): Swaps the content of two strings.
 
 
 
+**TONE🎧**
+---
+
+The tone() function in C++ is utilized to produce a sound on a specific pin of a microcontroller. To invoke this function, the following syntax is employed:
+
+```C++
+  tone(buzzer, melody[thisNote], noteDuration * 0.9);//((pinNumber, frequency, duration);)
+
+  
+    delay(noteDuration);
+
+   
+    noTone(buzzer);
+```
+
+```c++
+#define NOTE_D8  4699
+#define NOTE_DS8 4978
+#define REST      0
+int tempo = 200;
+int buzzer = 11;
+int melody[] = {
+  NOTE_E5,8, NOTE_E5,8, REST,8, NOTE_E5,8, REST,8, NOTE_C5,8, NOTE_E5,8, 
+  NOTE_G5,4, REST,4, NOTE_G4,8, REST,4, 
+  NOTE_C5,-4, NOTE_G4,8, REST,4, NOTE_E4,-4, 
+  NOTE_A4,4, NOTE_B4,4, NOTE_AS4,8, NOTE_A4,4,
+ for (int i = 0; i < 42; i++) {
+    if (melody[i] != NOTE_REST) {
+      tone(8, melody[i]); 
+      delay(noteDurations[i] * 250); 
+      noTone(8);
+    } else {
+      delay(noteDurations[i] * 250); 
+    }
+    delay(50); 
+  }
+}
+```
+We can modify the melody[] array to play other tracks by simply adding the frequencies of the desired notes to the array and adjusting the duration of each note accordingly.
 
 
 
