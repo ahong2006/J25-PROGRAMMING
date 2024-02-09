@@ -379,6 +379,8 @@ String(const char *str): Constructs a string from a null-terminated character ar
 
 String(const string *str): Constructs a string from another string object.
 
+
+
 **Essential String Functions**
 
 append(): Appends a portion of a string to another.
