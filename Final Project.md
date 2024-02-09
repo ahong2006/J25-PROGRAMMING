@@ -6,7 +6,11 @@
 The goal of this project is to create a code that, when specific commands are sent via serial communication, the Echo system replies with the same commands to ensure proper transmission. Additionally, if the command is "m:" or "morse", the subsequent line will be sent in Morse code. If the command is correct, the system will send a recipe for a selected dish and play (or stop) a song.
 ![Tone_Fritzing](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/b504ca98-5f6e-44ec-9045-6fa1ca018aa8)
 
-Structurally I used one main base file, and three additional files as separate features, but later on I split the cook's file into four, one main file and three dish creation files, somewhat similar to Russian nesting dolls<img width="618" alt="截屏2024-02-09 19 35 35" src="https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/fc3bb46f-4dee-4e92-a50b-3fb33db96afa">
+Structurally I used one main base file, and three additional files as separate features, but later on I split the cook's file into four, one main file and three dish creation files, somewhat similar to Russian nesting dolls<img width="618" alt="截屏2024-02-09 19 35 35" src="https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/fc3bb46f-4dee-4e92-a50b-3fb33db96afa"><img width="185" alt="截屏2024-02-09 19 34 56" src="https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/eb52d05a-9902-464f-90f3-c6<img width="199" alt="截屏2024-02-09 19 36 09" src="https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/6be2b4c8-c6be-4646-b998-4d5fa3d34d0b">
+d50e7c0a26">
+
+
+
 
 
 
