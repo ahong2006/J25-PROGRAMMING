@@ -8,8 +8,10 @@
 ![iG-won-the-LOL](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/d4eff9e6-cde3-4809-91f4-e57adc5ba9f3)
 
 
-
-
+## CODES
+---
+[C++CODE](https://github.com/ahong2006/J25-PROGRAMMING/tree/main/Arduino)
+[JAVA CODE](https://github.com/ahong2006/J25-PROGRAMMING/tree/main/JAVA)
 
 ## Explanations of code
 ---
