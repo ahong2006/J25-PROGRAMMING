@@ -14,12 +14,14 @@
 ## Explanations of code
 ---
 [Arduino.md](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/Arduino.md)
+
 [JAVA EXEC.](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/JAVA%20EXECERCICES.md)
 
 
 ## CLASS NOTES
 ---
 [C++ Notes](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/Notes/Notes.md)
+
 [JAVA Notes](https://hackmd.io/_aBfQhV3Tzy6y8G0BXMOpQ)
 
 
