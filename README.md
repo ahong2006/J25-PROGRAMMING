@@ -41,4 +41,6 @@
 - [JuLiA1o1](https://github.com/JuLiA1o1/J25programming)
 - [albertrenart](https://github.com/albertrenart/J25-programming)
 - [LuyiLin06](https://github.com/LuyiLin06/J25-Programming)
+  
+![pngtree-hand-drawn-cartoon-classroom-scene-illustration-image_69516](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/acc7dec2-ffed-41d9-a7e0-6ff8a839c138)
 
