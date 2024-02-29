@@ -89,3 +89,56 @@ Object-Oriented Programming (OOP): OOP organizes code around objects, which are 
 1. Graphical User Interface (GUI): GUIs use visual elements like windows, icons, and buttons for intuitive interaction. They are user-friendly and support actions like clicking and dragging.
 
 2. Command Line Interface (CLI): CLIs are text-based interfaces used mainly by programmers. They offer precise control over system functions through text commands. For instance, the Windows Command Prompt provides a CLI for executing commands.
+
+
+**EXCERCICES 15 Feb.**
+
+This Java program calculates the sum of numbers divisible by 3, 5, or 7 (but not by 15, 21, 35, or 105) within the range from 1 to 1000. It utilizes a while loop to iterate through the numbers within this range, checking each number for divisibility conditions and updating the sum accordingly. Finally, it prints out the calculated sum along with the specified range of numbers.
+
+Key points:
+
+The constants LOWERBOUND and UPPERBOUND define the range of numbers to consider.
+The variable 'sum' accumulates the sum of qualifying numbers.
+The 'while' loop iterates through each number in the defined range.
+The 'if' statement checks divisibility conditions and updates the sum if the number meets the criteria.
+The program concludes by printing the calculated sum along with the specified range of numbers.
+
+```java
+public class Main {
+   public static void main(String[] args) {
+      final int LOWERBOUND = 1;
+      final int UPPERBOUND = 1000;
+      int sum = 0;
+      int number = LOWERBOUND;
+
+      while (number <= UPPERBOUND) {
+         if ((number % 3 == 0 || number % 5 == 0 || number % 7 == 0) &&
+             !(number % 15 == 0 || number % 21 == 0 || number % 35 == 0 || number % 105 == 0)) {
+            sum = sum + number;
+         }
+         ++number;
+      }
+      System.out.println("The sum of numbers divisible by 3, 5, or 7 (but not by 15, 21, 35, 105) from " + LOWERBOUND + " to " + UPPERBOUND + " is " + sum);
+   }
+}
+```
+
+
+It prints leap years between the years 1 and 2024 inclusively. It utilizes a for loop to iterate through each year within this range, checking each year for leap year conditions. If a year is identified as a leap year, it is printed, and the count of leap years is incremented. Finally, the program prints out the total count of leap years within the specified range.
+
+```java
+public class Main {
+   public static void main(String[] args) {
+      final int START_YEAR = 1;
+      final int END_YEAR = 2024;
+      int count = 0;
+      for (int year = START_YEAR; year <= END_YEAR; year++) {
+         if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+            System.out.println(year);
+            count++;
+        }
+      }
+      System.out.println("Total number of leap years between " + START_YEAR + " and " + END_YEAR + " is " + count);
+   }
+}
+```
