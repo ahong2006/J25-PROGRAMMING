@@ -19,7 +19,8 @@
 
 ## CLASS NOTES
 ---
-[c++ Notes](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/Notes/Notes.md)
+[C++ Notes](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/Notes/Notes.md)
+[JAVA Notes](https://hackmd.io/_aBfQhV3Tzy6y8G0BXMOpQ)
 
 
 ## FINAL PROJECT
