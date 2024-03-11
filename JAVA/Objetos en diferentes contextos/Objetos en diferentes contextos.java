@@ -1,3 +1,6 @@
+// Anime and Comic Derivative Products
+
+
 public class AnimeFigure {
 
   private String series;        // Name of the anime/manga LIKE: Doraemon, Jujustsukaisen
