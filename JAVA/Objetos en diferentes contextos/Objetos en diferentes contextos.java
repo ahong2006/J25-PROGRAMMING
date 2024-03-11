@@ -14,32 +14,29 @@ public class AnimeFigure {
 }
 
 
-public class Gunpla {
+public class AnimeFigureShop {
 
 
-  private String name;  // EXIA, STRIKE, UNICORN
-  private String grade;// HG, RG, MG , PG
-  private double scale; // 1/144, 1/100, 1/60
-  private String manufacturer;  // BANDAI, DABAN, MOMOKODRAGON
-  private int numRunners;
+  private String name;  
+  private String address;
+  private double price; 
+  private Boolean promotion;  
+  private int workers;
   private int partsCount;
-  private String injectionColor;  // red, white yellow
-  private String releaseDate;    
 
 }
 
 
 
-public class MangaBook {
+public class AnimeFigureSell {
 
-  private String title;           // Title of the manga series
-  private String author;          // Author(s) of the manga
-  private int pageNumber;      
-  private String publicationDate; 
-  private String publisher;       // Publishing company
-  private String genre;         
-  private String magazine;      
-  private String isbn;            // International Standard Book Number
+  private String name;           
+  private String company;         
+  private int price;      
+  private String problems; 
+  private owner client;       
+  private String DateOfArrival;         
+
 }
 
 
