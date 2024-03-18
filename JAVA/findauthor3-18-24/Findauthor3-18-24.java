@@ -1,6 +1,6 @@
 
 
-public Boolean findAuthorInLibrary(String author){
+public boolean findAuthorInLibrary(String author){
 
         for (int i = 0; i < library.length ;i ++) {
 
