@@ -95,6 +95,7 @@ MY FIRST HTML PAGE:
 This tag defines the document's character encoding as UTF-8, a universal character encoding that can represent almost all characters and symbols.
 
 ```<meta name=“viewport” content=“width=device-width, initial-scale=1.0”>```
+
 This tag sets the viewport attribute, which ensures that the page is displayed on different devices.
 
 ```<title>Image Display</title>```:
@@ -104,6 +105,7 @@ This tag defines the title of the page, which is the text that is displayed in t
 ```body { ... }```
 
 ```justify-content: center;:```
+
 This centers the content inside the container horizontally.
 
 ```align-items: center;:```
