@@ -10,5 +10,8 @@ To break it down:
     - 2 bits = 4 possible values
     - 3 bits = 8 possible values
     - 4 bits = 16 possible values
-    - 8 bits = 256 possible values ```
+    - 8 bits = 256 possible values 
+
+```
+
 
