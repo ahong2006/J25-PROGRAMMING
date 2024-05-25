@@ -9,7 +9,7 @@
 
 **Tags and Elements**: Markup languages use tags to define elements within a document. For example, in HTML, <p> and </p> define a paragraph.
 
-**Attributes**: Tags can also have attributes, which provide additional information about the element. For example, <img src="image.jpg" alt="Description"> specifies the source and alternate text for an image.
+**Attributes**: Tags can also have attributes, which provide additional information about the element. For example, // <img src="image.jpg" alt="Description"> //specifies the source and alternate text for an image.
 
 **Nested Structure**: Elements in markup languages can be nested within other elements, creating a hierarchical structure. 
 
