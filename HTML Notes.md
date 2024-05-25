@@ -7,7 +7,7 @@
 **Characteristics of markup languages**:
 ---
 
-**Tags and Elements**: Markup languages use tags to define elements within a document. For example, in HTML, <p> and </p> define a paragraph.
+**Tags and Elements**: Markup languages use tags to define elements within a document. For example, in HTML, ```html <p> and </p>```define a paragraph.
 
 **Attributes**: Tags can also have attributes, which provide additional information about the element. For example;
 ```html
