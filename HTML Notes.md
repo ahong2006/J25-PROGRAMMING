@@ -229,13 +229,150 @@ Wi-Fi
 
 **ISP (Internet Service Provider)**: The company that provides internet access to your home or business.
 
-**DNS Server (Domain Name System Server)**: Translates domain names (like www.google.com) into IP addresses that computers can understand.
+**DNS Server (Domain Name System Server)**: Translates domain names ```(like www.google.com)``` into IP addresses that computers can understand.
 
 **Server**: The destination on the internet where the information you request is stored, such as a web server hosting a website.
 
 
+Difference between P2P and Client-Servor
+---
+**Client-Server Network**
+
+A *client-server network* is a centralized network architecture where multiple clients (devices like computers, smartphones) connect to a central server to access resources or services. The server provides, manages, and controls access to these resources, while clients request and utilize them.
+
+![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/399df670-e494-45b1-87a3-24051b1d1e3f)
+
+**Characteristics:**
+Centralized control simplifies management.
+
+Easier to back up and restore data.
+
+High security due to centralized access control.
+
+Efficient resource management and sharing.
+
+**Examples:**
+
+*Email Service*: Users (clients) connect to an email server to send and receive emails.
+
+![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/9a3d568c-d025-4046-ba41-3647ceb19b4d)
+
+Peer-to-Peer (P2P) Network
+---
 
 
+*A peer-to-peer (P2P)* network is a decentralized network architecture where each node (device) acts as both a client and a server. Every device can share and access resources directly with other devices without the need for a central server.
+
+![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/b4a39ebb-165d-4c82-87d0-42ecb9c842f6)
+
+ **Characteristics:**
+ 
+No central point of failure, improving robustness.
+
+Lower cost as no dedicated server is required.
+
+Each peer can contribute resources, improving overall network capacity.
+
+Example:
+
+*League of Legends*: It use the P2P network, at the start of the game, data and resources are generated and stored in both players' devicess 
+
+
+![IMG_7037](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/91ead97a-09e3-4c09-8149-583e430a01f9)
+
+
+IT 💻
+---
+**What is IT, Exactly?**
+
+IT, or Information Technology, represents the department within a company entrusted with the creation, management, and upkeep of computer systems and technological infrastructure. It spans a spectrum of roles, each pivotal in ensuring smooth operations and technological advancement within an organization.
+
+![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/2cb4c2b9-eeef-4f0d-bc66-1d6f6ab45d3a)
+
+
+### Software Development and Maintenance
+
+1. **Project Manager**
+   - Oversees and coordinates IT projects, ensuring timely completion within budgetary constraints.
+
+2. **Web Developer**
+   - **Front End:** Constructs the user-facing elements of websites, focusing on layout, design, and interactivity.
+   - **Back End:** Constructs the server-side logic, databases, and APIs supporting the front end.
+   - **Full Stack:** Combines front end and back end skills, managing all aspects of web development.
+
+3. **Programmer**
+   - Codes software applications, bringing concepts to life through programming languages.
+
+4. **Analyst**
+   - Designs code structure and conducts code reviews to optimize efficiency and eliminate errors.
+
+5. **Software Architect**
+   - Defines the overarching structure and conceptual design of software systems.
+
+6. **QA (Quality Assurance)**
+   - Ensures software quality through rigorous testing and validation, safeguarding against defects and issues.
+
+### Systems Management
+
+1. **DBA (Database Admin)**
+   - Maintains database systems, ensuring data integrity, performance, and security.
+
+2. **System Operator**
+   - Manages operating systems, ensuring their functionality and security.
+
+3. **Deployment**
+   - Facilitates the release and installation of software updates and patches.
+
+4. **Network Administration**
+   - Manages network hardware, guaranteeing reliable connectivity and data transfer.
+
+5. **Operators**
+   - Monitor and maintain systems and networks, providing essential technical support.
+
+### 3D Modeling and VFX
+
+1. **Modelers**
+   - Craft 3D models for diverse applications such as gaming, film, and simulations.
+
+2. **Rigging**
+   - Prepares 3D models for animation by creating skeletal structures.
+
+3. **Animation**
+   - Brings characters and objects to life through motion and dynamics.
+
+4. **VFX (Visual Effects)**
+   - Creates stunning visual effects, enhancing visual storytelling in various media.
+  
+     
+![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/a028554a-6dcf-453d-b406-ca95756ac828)
+
+
+### Development Environments
+
+Software development progresses through various environments:
+
+1. **Local Environment**
+   - Developer's workspace for initial coding and testing.
+
+2. **Integration (INT)**
+   - Platform for integrating and testing software components using simulated data.
+
+3. **Pre-production (Pre)**
+   - Staging environment with actual data for final testing and quality assurance.
+
+4. **Production (Pro)**
+   - Live environment where software is accessible to end-users.
+     
+![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/4ec19ba9-79af-435e-ad3a-8fc0af1050ff)
+
+
+
+**Case of 黑神话悟空**
+
+Local -> Test -> PRE -> Beta -> PRO
+
+
+![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/6e08bbfb-c891-455e-a97e-f3f268658401)
 
 
 
