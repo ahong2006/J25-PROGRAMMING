@@ -175,5 +175,67 @@ Automatization:Content can be updated automatically from a database.
 ![IMG_2195](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/2223baba-a798-4e48-b030-69bbd4c12497)
 
 
+Networks
+---
+**Architecture: Client-Server Model**
+___
+
+**Client-Side:**
+
+Requests: The client  sends a request to a server for resources, such as a web page.
+
+URL (Uniform Resource Locator): The address used to access resources on the internet.
+
+**Server-Side:**
+
+Responds: The server processes the client’s request and sends back the requested resource or an error message if the resource is unavailable.
+
+![IMG_2196](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/4bf44954-f9bb-413b-b51e-b9cc70cce3a9)
+
+**URL:**``` https://www.bilibili.com/video/BV1yx4y1H7rB/?```
+
+**URL Breakdown**
+
+Protocol: ```https://```
+
+Subdomain: ```www```
+
+Domain: ```bilibili.com```
+
+Path: ```/video/BV1yx4y1H7rB/```
+
+Variables:```?spm_id_from=333.1007.tianma.1-3-3.click```
+
+
+Different Networks
+---
+**Internet**
+___
+The Internet is a vast physical network of interconnected computers and other devices (hardware) that communicate with each other globally. It's the underlying infrastructure that allows different systems to connect and exchange data.
+
+**World Wide Web**
+___
+The World Wide Web (WWW) is a collection of resources (software, data) that are stored on the internet. It includes websites, web pages, multimedia content, and more, all accessible through web browsers.
+
+Wi-Fi
+----
+**Wi-Fi** is a wireless networking technology that allows devices to connect to the internet and communicate with each other over a wireless local area network (WLAN). It typically involves the following components:
+
+**Computer (Client Device)**: The device you use to access the network, such as a laptop, smartphone, or tablet.
+
+**Access Point (AP)**: A device that allows wireless devices to connect to a wired network using Wi-Fi.
+
+**Router**: A networking device that routes data from the local network to the internet and vice versa.
+
+**ISP (Internet Service Provider)**: The company that provides internet access to your home or business.
+
+**DNS Server (Domain Name System Server)**: Translates domain names (like www.google.com) into IP addresses that computers can understand.
+
+**Server**: The destination on the internet where the information you request is stored, such as a web server hosting a website.
+
+
+
+
+
 
 
