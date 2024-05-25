@@ -6,7 +6,7 @@ Each individual digit within binary code is termed a "bit," with a sequence of e
 
 To break it down:
 
-``` - 1 bit = 2 possible values
+```c - 1 bit = 2 possible values
     - 2 bits = 4 possible values
     - 3 bits = 8 possible values
     - 4 bits = 16 possible values
