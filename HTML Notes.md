@@ -22,7 +22,7 @@ specifies the source and alternate text for an image.
 Types of Markup Languages:
 ---
 
-**HTML (HyperText Markup Language)**: The standard markup language used to create and design documents on the World Wide Web. It defines the structure of web pages using tags like <html>, <head>, <body>, <p>, and <a>.
+**HTML (HyperText Markup Language)**: The standard markup language used to create and design documents on the World Wide Web. It defines the structure of web pages using tags like ```<html>, <head>, <body>, <p>, and <a>. ```
 
 
 ```html
@@ -133,5 +133,22 @@ The ```<img>``` tag is used to display the image at the specified URL.
 
 Static and dynamic web pages
 ---
+**Static Web Pages**
+____
 
+**Static web pages** are fixed content pages that are delivered to the user exactly as they are stored. They do not change unless they are manually updated by someone editing the HTML files.
+
+Characteristics:
+
+-Fixed Content,static web pages remains the same for all users and doesn't change in response to user actions.
+
+-Fast Load Times,there is no server-side processing, static pages load quickly.
+
+-Simplicity in creation and maintenance.
+
+-No personalization or dynamic content.
+
+-Requires manual updating for content changes.
+
+![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/c95792bc-f854-4c1d-8f2c-22bae7899341)
 
