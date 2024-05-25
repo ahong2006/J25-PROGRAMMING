@@ -76,31 +76,30 @@ Converting a decimal number to binary involves dividing the decimal number by 2 
 
 Bynary to hexa decimal
 ---
-Converting binary to hexadecimal involves grouping the binary digits into sets of four and then converting each group to its corresponding hexadecimal digit. Here's a step-by-step guide:
+Converting binary to hexadecimal involves grouping the binary digits into sets of four and then converting each group to its corresponding hexadecimal digit. 
 
 1. Start with the binary number you want to convert.
 2. Group the binary digits into sets of four, starting from the right.
 3. If the leftmost group has fewer than four digits, add leading zeros to make it a complete group.
 4. Convert each group of four binary digits to its corresponding hexadecimal digit using the following conversion table:
+5. 
+![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/f5129f6b-aa19-457d-855a-017ce489c515)
 
-| Binary | Hexadecimal |
-|--------|-------------|
-| 0000   | 0           |
-| 0001   | 1           |
-| 0010   | 2           |
-| 0011   | 3           |
-| 0100   | 4           |
-| 0101   | 5           |
-| 0110   | 6           |
-| 0111   | 7           |
-| 1000   | 8           |
-| 1001   | 9           |
-| 1010   | A           |
-| 1011   | B           |
-| 1100   | C           |
-| 1101   | D           |
-| 1110   | E           |
-| 1111   | F           |
+6. Write down the hexadecimal digits obtained from each group of four binary digits, from left to right.
 
-5. Write down the hexadecimal digits obtained from each group of four binary digits, from left to right.
 
+Hexadecimal to binary
+---
+Converting a hexadecimal number to binary involves replacing each hexadecimal digit with its equivalent four-digit binary representation. 
+
+1. Write down the hexadecimal number you want to convert.
+2. Replace each hexadecimal digit with its equivalent four-digit binary representation using the following conversion table:
+
+![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/f5129f6b-aa19-457d-855a-017ce489c515)
+
+
+3. Write down the four-digit binary representation obtained for each hexadecimal digit, from left to right.
+
+![IMG_2198](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/24eac759-7f2e-47b9-9dda-aece244a9489)
+
+![IMG_2199](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/2d16e2da-a6fc-440e-9c77-24134649c394)
