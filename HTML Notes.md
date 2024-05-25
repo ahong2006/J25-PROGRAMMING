@@ -103,17 +103,17 @@ This tag defines the title of the page, which is the text that is displayed in t
 
 ```body { ... }```
 
-**justify-content: center;:**
+```justify-content: center;:```
 This centers the content inside the container horizontally.
 
-**align-items: center;:**
+```align-items: center;:```
 
 This centers the content inside the container vertically.
 
-**height: 100vh;:**
+```height: 100vh;: ```
 This sets the height of the container to 100% of the viewport (i.e. the entire screen height).
 
-**background-color: #f0f0f0;:**
+```background-color: #f0f0f0;:```
 
 This sets the background color of the page to light gray (#f0f0f0).
 
@@ -127,6 +127,11 @@ This sets the maximum width of the image to 100% of the container, ensuring that
 This automatically adjusts the height of the image to maintain its original aspect ratio.
 
 The ```<h1>``` tag is used to display the caption “Mi primera pagina”.
+
 The ```<img>``` tag is used to display the image at the specified URL.
+
+
+Static and dynamic web pages
+---
 
 
