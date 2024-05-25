@@ -111,6 +111,7 @@ This centers the content inside the container horizontally.
 This centers the content inside the container vertically.
 
 ```height: 100vh;: ```
+
 This sets the height of the container to 100% of the viewport (i.e. the entire screen height).
 
 ```background-color: #f0f0f0;:```
