@@ -142,6 +142,7 @@ ____
 
 **Static web pages** are fixed content pages that are delivered to the user exactly as they are stored. They do not change unless they are manually updated by someone editing the HTML files.
 
+
 Characteristics:
 
 -Fixed Content,static web pages remains the same for all users and doesn't change in response to user actions.
@@ -243,6 +244,7 @@ A *client-server network* is a centralized network architecture where multiple c
 ![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/399df670-e494-45b1-87a3-24051b1d1e3f)
 
 **Characteristics:**
+
 Centralized control simplifies management.
 
 Easier to back up and restore data.
