@@ -136,6 +136,7 @@ The ```<img>``` tag is used to display the image at the specified URL.
 
 Static and dynamic web pages
 ---
+
 **Static Web Pages**
 ____
 
@@ -154,4 +155,25 @@ Characteristics:
 -Requires manual updating for content changes.
 
 ![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/c95792bc-f854-4c1d-8f2c-22bae7899341)
+
+
+**Dynamic Web Pages**
+____
+
+**Dynamic web pages** are generated in real-time and can display different content and provide interactive features depending on user actions or other inputs.
+
+Characteristics:
+
+Dynamic Content: The content can change based on user interactions, time of day, data fetched from a database, etc.
+
+Database Interaction: Often connected to a database to fetch and display data.
+
+More interactive:Interactive and personalized user experience.
+
+Automatization:Content can be updated automatically from a database.
+
+![IMG_2195](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/2223baba-a798-4e48-b030-69bbd4c12497)
+
+
+
 
