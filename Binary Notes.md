@@ -43,3 +43,64 @@ Human Interpretation Difficulty:  Unlike decimal or other numeral systems, binar
 
 ![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/ad94f8ce-caff-45a8-981b-5c9f122c2f23)
 
+Hexadecimal
+---
+**Hexadecimal**, is a base-16 numeral system that uses sixteen distinct symbols to represent values. In addition to the digits 0 through 9, hexadecimal uses the letters A through F to represent values greater than 9. 
+
+![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/305d4c42-1afb-420b-bf3e-6ddada46500b)
+
+Bynary to decimal
+---
+Converting binary numbers to decimal involves a straightforward process. Each digit in a binary number represents a power of 2, starting from the rightmost digit, which represents \(2^0\), then the next digit represents \(2^1\), 
+
+
+1. Write down the binary number.
+2. Starting from the rightmost digit, assign each digit a power of 2 based on its position from right to left.
+3. Multiply each binary digit by its corresponding power of 2.
+4. Sum up all the products to get the decimal equivalent.
+
+![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/6656d451-d958-4231-886e-4bcb85d0b902)
+
+Decimal to binary
+---
+
+Converting a decimal number to binary involves dividing the decimal number by 2 repeatedly and noting the remainders. 
+
+1. Start with the decimal number you want to convert.
+2. Divide the decimal number by 2.
+3. Note the remainder (either 0 or 1), this is the least significant bit (LSB).
+4. Continue dividing the quotient by 2 and noting the remainders until the quotient becomes 0.
+5. The sequence of remainders, read from bottom to top, gives you the binary representation of the decimal number.
+
+![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/2ced9f2c-6c2d-4cd0-91a8-83f26e5bdabd)
+
+Bynary to hexa decimal
+---
+Converting binary to hexadecimal involves grouping the binary digits into sets of four and then converting each group to its corresponding hexadecimal digit. Here's a step-by-step guide:
+
+1. Start with the binary number you want to convert.
+2. Group the binary digits into sets of four, starting from the right.
+3. If the leftmost group has fewer than four digits, add leading zeros to make it a complete group.
+4. Convert each group of four binary digits to its corresponding hexadecimal digit using the following conversion table:
+
+| Binary | Hexadecimal |
+|--------|-------------|
+| 0000   | 0           |
+| 0001   | 1           |
+| 0010   | 2           |
+| 0011   | 3           |
+| 0100   | 4           |
+| 0101   | 5           |
+| 0110   | 6           |
+| 0111   | 7           |
+| 1000   | 8           |
+| 1001   | 9           |
+| 1010   | A           |
+| 1011   | B           |
+| 1100   | C           |
+| 1101   | D           |
+| 1110   | E           |
+| 1111   | F           |
+
+5. Write down the hexadecimal digits obtained from each group of four binary digits, from left to right.
+
