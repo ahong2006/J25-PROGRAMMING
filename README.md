@@ -29,6 +29,8 @@
 
 [Html Notes](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/HTML%20Notes.md)
 
+[Hardware & Software Notes](https://hackmd.io/LZthzh__T9qRJA5HeoH7Qw?view)
+
 
 ## FINAL PROJECT
 ---
