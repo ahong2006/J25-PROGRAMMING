@@ -82,10 +82,10 @@ Converting binary to hexadecimal involves grouping the binary digits into sets o
 2. Group the binary digits into sets of four, starting from the right.
 3. If the leftmost group has fewer than four digits, add leading zeros to make it a complete group.
 4. Convert each group of four binary digits to its corresponding hexadecimal digit using the following conversion table:
-5. 
+
 ![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/f5129f6b-aa19-457d-855a-017ce489c515)
 
-6. Write down the hexadecimal digits obtained from each group of four binary digits, from left to right.
+5. Write down the hexadecimal digits obtained from each group of four binary digits, from left to right.
 
 
 Hexadecimal to binary
