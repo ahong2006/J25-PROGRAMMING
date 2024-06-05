@@ -175,6 +175,15 @@ Automatization:Content can be updated automatically from a database.
 
 ![IMG_2195](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/2223baba-a798-4e48-b030-69bbd4c12497)
 
+**BBDD**:stands for "Bases de Datos" in Spanish, which translates to "Databases" in English. It is often used as an abbreviation when referring to database systems, which are organized collections of data that are electronically stored and accessed. 
+
+![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/342be5d5-6c22-4bde-b084-3ece7b41fb47)
+
+**CGI**: stands for "Common Gateway Interface." It is a standard protocol used to enable web servers to execute programs and generate dynamic content in response to user requests. 
+
+![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/59b9fe01-abd1-41da-98a0-fba6d616a778)
+
+
 
 Networks
 ---
@@ -213,14 +222,21 @@ Different Networks
 **Internet**
 ___
 The Internet is a vast physical network of interconnected computers and other devices (hardware) that communicate with each other globally. It's the underlying infrastructure that allows different systems to connect and exchange data.
+![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/cdc4c5b2-d1d1-43e1-8478-6e06844b01cf)
+
 
 **World Wide Web**
 ___
 The World Wide Web (WWW) is a collection of resources (software, data) that are stored on the internet. It includes websites, web pages, multimedia content, and more, all accessible through web browsers.
+![](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/5b282f09-d482-4a46-9a04-acfe21ccc941)
+
 
 Wi-Fi
 ----
 **Wi-Fi** is a wireless networking technology that allows devices to connect to the internet and communicate with each other over a wireless local area network (WLAN). It typically involves the following components:
+
+![image](https://github.com/ahong2006/J25-PROGRAMMING/assets/124577520/df3cd4ec-9f33-4fe0-89a2-ab7887d01481)
+
 
 **Computer (Client Device)**: The device you use to access the network, such as a laptop, smartphone, or tablet.
 
