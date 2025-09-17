@@ -14,7 +14,7 @@
 
 [JAVA CODE](https://github.com/ahong2006/J25-PROGRAMMING/tree/main/JAVA)
 
-## Explanations of code
+## Explanations of codes
 ---
 [Arduino.md](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Arduino/Arduino.md)
 
