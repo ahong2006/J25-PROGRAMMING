@@ -33,7 +33,7 @@
 
 [Binary Notes](https://github.com/ahong2006/J25-PROGRAMMING/blob/main/Binary%20Notes.md)
 
-[general Notes]（https://hackmd.io/@dprieto/Topic-2-OS-and-programs）
+[general Notes]（https://hackmd.io/@dprieto/Topic-2-OS-and-programs)
 
 
 ## FINAL PROJECT
